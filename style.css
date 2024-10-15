@@ -1,0 +1,91 @@
+        /* Reset basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+        }
+        
+        /* Header Styles */
+        .header {
+            text-align: center;
+            background:white;
+            color: black;
+            font-size: 1.5rem;
+            
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            letter-spacing: 3px;
+        
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            margin-top: -45px;
+        }
+        
+        /* Parallax Sections */
+        .parallax-section {
+            position: relative;
+            height: 100vh;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .parallax-1 {
+            background-image: url('https://papers.co/wallpaper/papers.co-al90-nike-just-do-it-dark-simple-minimal-logo-art-6-wallpaper.jpg'); /* Replace with a Nike-related image */
+        }
+        
+        .parallax-2 {
+            background-image: url('https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/878a70ed-be87-482e-83a5-11cb31744b9d/NIKE+GO+FLYEASE.png'); /* Replace with a Nike-related image */
+        }
+        
+        
+        .parallax-3 {
+            background-image: url('https://www.nicekicks.com/files/2024/08/nike-lebron-22-gold-medal-pe-lebron-james-paris-olympics-2024-5.jpg'); height: 100vh; width: 100%; /* Replace with a Nike-related image */
+        }
+        
+        .parallax-section .content h2 {
+            font-size: 3rem;
+            letter-spacing: 3px;
+            text-align: center;
+            color: #000;
+        }
+        
+        /* Content Sections */
+        .content-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        
+        .content-section h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #333;
+        }
+        
+        .content-section p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #000;
+            color: #fff;
+        }
